@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="propnets Portfolio">
+		<meta name="keywords" content="collocation, site acquisition, nigeria, propnets telecoms Nigeria, Telecoms training, Telecoms training Nigeria">
+		<meta name="author" content="Anthony Egwu Jr ">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/dov_style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favi.png">
+	
+		
+	
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script>
+			  function initialize() {
+				var myLatlng = new google.maps.LatLng(+6.618444, +3.348300);
+
+				var map_canvas = document.getElementById('mapholder');
+				var map_options = {
+				  center: new google.maps.LatLng(+6.618444, +3.348300),
+				  zoom: 17,
+				  mapTypeId: google.maps.MapTypeId.ROADMAP
+				  }
+				var map = new google.maps.Map(map_canvas, map_options)
+			  
+				var marker = new google.maps.Marker({
+					  position: myLatlng,
+					  map: map,
+					  title: 'Propnets Services'
+				  });
+
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+		<title>Dovan Consult Limited</title>
+	</head>
+	<body>
+	
+		
+		<div class="page">
+		<div id="header">
+				<a href="index.html"><div id="logo"><img src = "images/dovlogo.png"/></div></a>
+				<div id="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="dovan_people.html">Our People</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clr"></div>
+			</div>
+			<div id="main_content_ins">
+				
+				
+				<div class="clr"></div>
+				<div class="divider"></div>
+				<div class="clr"></div>
+				<div class="un_slider">
+					<div id="addresses">
+						<h2 class="semi_big">Head Office</h2>
+						<ul class="body_txt">
+							<li>14A Talabi Street,</li>
+							<li>Off Adeniyi Jones,</li>
+							<li>Ikeja, Lagos</li>
+							<li>08122223606</li>
+						</ul>
+					</div>
+					
+					
+					
+					<div id="addresses">
+						<h2 class="semi_big">Contact Numbers</h2>
+						<ul class="address_list">
+							<li>08057706522</li>
+							<li>08023111379</li>
+							
+						</ul>
+					</div>
+					
+					<div id="addresses">
+						<h2 class="semi_big">Email</h2>
+						<ul class="address_list">
+							<li>info@dovanconsult.com</li>
+							<li>dovaninfo@gmail.com</li>
+							
+						</ul>
+					</div>
+					<div class="clr"></div>
+				</div>
+				<div class="disp_images">
+					<div id="slider_level">
+						<div id="mapholder">
+					
+						</div>
+						
+					</div>
+					<div class="welcome_form">
+							<p class="semi_big">Send Us A Message</p>
+							<form action="send_mail.php" method="POST">
+								<div class="form_row">
+									<label>Name</label><br/>
+									<input type="text" placeholder="Please Enter Your Name" class="form_input" name="name">
+								</div>
+								<div class="form_row">
+									<label>Phone Number</label><br>
+									<input type="text" placeholder="Please Enter Your Phone Number" class="form_input" name="phone">
+								</div><div class="form_row">
+									<label>E-mail</label><br>
+									<input type="text" placeholder="Please Enter Your email" class="form_input" name="email">
+								</div>
+								<div class="form_row">
+									<label>Message</label><br>
+									<textarea name="message" placeholder="Enter Your Message" class="form_textarea"></textarea>
+								</div>
+								<div class="form_row">
+									<input type="submit" value="send"  class="form_submit" name="submit">
+								</div>
+								
+							</form>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+			</div>
+			<div class="footer">
+				<div class="footer_content">
+					<div class="footer_navigation">
+						
+					</div>
+					<div class="clr"></div>
+					<a href="#"><div class="facebook"></div></a>
+					<a href="#"><div class="twitter"></div></a>
+					<a href="#"><div class="google"></div></a>
+					<a href="#"><div class="linkdn"></div></a>
+					<a href="#"><div class="pinterest"></div></a>
+					<div class="clr"></div>
+					
+				</div>
+			</div>
+		</div>
+		
+</body>
+</html>
