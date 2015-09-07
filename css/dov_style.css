@@ -251,7 +251,7 @@ background:url(../images/head2.png);
 
 .body_txt{
 	font-family:Lucida Sans;
-	font-size:18px;
+	font-size:15px;
 	margin-bottom:20px;
 	color:#383838;
 }
@@ -332,6 +332,9 @@ background:url(../images/head2.png);
 
 .person{
 	margin-bottom:70px;
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 20px
+    
 }
 
 .desig_big{

@@ -10,7 +10,7 @@
 
 
 /*Airtel*/
-.RVDialog, .modalDialog, .AirtelDialog, .LucDialog, SCDialog{
+.RVDialog, .modalDialog, .AirtelDialog, .LucDialog, SCDialog, .smirDialog{
     position:fixed;
     font-family:Arial, Helvetica, sans-serif;
     top:0;
@@ -27,19 +27,19 @@
     
 }
 
-.RVDialog:target, .modalDialog:target, .AirtelDialog:target, .LucDialog:target, .SCDialog:target{
+.RVDialog:target, .modalDialog:target, .AirtelDialog:target, .LucDialog:target, .SCDialog:target, .smirDialog:target {
     opacity:1;
     pointer-events:auto;
 }
 
-.RVDialog > div, .modalDialog > div, .AirtelDialog > div, .LucDialog > div, .SCDialog > div{
-    width:400px;
+.RVDialog > div, .modalDialog > div, .AirtelDialog > div, .LucDialog > div, .SCDialog > div, .smirDialog > div{
+    width:700px;
     position:relative;
     margin:10% auto;
     padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
+	background: -moz-linear-gradient(#fff, #F9F9F9);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
      
@@ -79,7 +79,7 @@
    
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover { background: #0543D2; }
 
 
 
