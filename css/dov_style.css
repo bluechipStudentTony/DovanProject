@@ -205,10 +205,11 @@ background:url(../images/head2.png);
 	-o-filter: grayscale(1);
 	-ms-filter: grayscale(1);
     cursor: pointer;
-    transition: -webkit-filter 2s;
-    transition: -moz-filter 2s;
-    transition: -o-filter 2s;
-    transition: -ms-filter 2s;
+    transition: filter 2s;
+    transition: -webkit-filter 1s;
+    transition: -moz-filter 1s;
+    transition: -o-filter 1s;
+    transition: -ms-filter 1s;
 }
 
 #evs:hover , #log:hover, #tec:hover{
