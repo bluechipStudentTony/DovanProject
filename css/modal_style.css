@@ -50,6 +50,10 @@
 
 
 
+.image_dia{
+    margin-right: 20px;
+    float: left;
+}
 
 
 
@@ -61,7 +65,7 @@
 	background: #606061;
 	color: #FFFFFF;
 	line-height: 25px;
-	position: absolute;
+	/*position: absolute;*/
 	right: -12px;
     /*right: -1;*/
 	text-align: center;
