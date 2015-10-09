@@ -117,6 +117,18 @@ background:url(../images/head2.png);
 	box-shadow:0 0 1px 0 #000000;
 	cursor:pointer;
 }
+
+.evs{
+	height:144px;
+	width:350px;
+	
+	float:left;
+	margin-right:50px;
+	border-radius:10px;
+	box-shadow:0 0 1px 0 #000000;
+	cursor:pointer;
+}
+
 #log{
 	height:144px;
 	width:350px;
@@ -198,20 +210,20 @@ background:url(../images/head2.png);
 
 
 
-#evs , #log, #tec{
+
+.evs{
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
 	-moz-filter: grayscale(1);
 	-o-filter: grayscale(1);
 	-ms-filter: grayscale(1);
     cursor: pointer;
-    transition: -webkit-filter 2s;
-    transition: -moz-filter 2s;
-    transition: -o-filter 2s;
-    transition: -ms-filter 2s;
+    transition: -webkit-filter 1s;
+    transition: filter 1s;
+    
 }
 
-#evs:hover , #log:hover, #tec:hover{
+.evs:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 	-moz-filter: grayscale(0);
