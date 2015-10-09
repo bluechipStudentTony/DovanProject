@@ -196,6 +196,34 @@ background:url(../images/head2.png);
 	background:url(../images/instagram_hov.png);
 }
 
+
+
+#evs , #log, #tec{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+    cursor: pointer;
+    transition: -webkit-filter 2s;
+    transition: -moz-filter 2s;
+    transition: -o-filter 2s;
+    transition: -ms-filter 2s;
+}
+
+#evs:hover , #log:hover, #tec:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+    
+}
+
+
+
+
+
 /*-------------------------navigation--------------------------------------------*/
 #navigation{
 	width:750px;
