@@ -340,6 +340,7 @@ background:url(../images/head2.png);
 .form_input{
 	height:20px;
 	width:250px;
+    border: 0;
 	box-shadow:inset 0 0 2px 0 grey;
 	font-family:Lucida Sans;
     font-size:15px;

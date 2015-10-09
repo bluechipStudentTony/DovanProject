@@ -98,11 +98,16 @@
 				<div class="clr"></div>
 			</div>
 			<div id="footer">
-				<div class="footercopy">Copyright © 2014 Dovan Consult ltd. All Rights Reserved.</div>
+                
+                <div class="footercopy">Copyright © <span id="date_year"></span> Dovan Consult ltd. All Rights Reserved.</div>
 				<div id="soc_fac"></div>
 				<div id="soc_tw"></div>
 				<div id="soc_inst"></div>
 				<div class="clr"></div>
+                <script>
+                    var date_years = new Date().getFullYear();
+                    document.getElementById("date_year").innerHTML=date_years;
+                </script>
 			</div>
 		</div>
 	</body>
