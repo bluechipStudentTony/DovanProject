@@ -159,8 +159,11 @@ background:url(../images/head2.png);
 	height:40px;
 	padding-top:10px;
 	width:1000px;
-	margin:0 auto;
 	
+	bottom: 0;
+    margin:0 auto;
+    
+    
 	border-top:1px solid #0437B5;
 }
 
@@ -218,8 +221,8 @@ background:url(../images/head2.png);
 	-o-filter: grayscale(1);
 	-ms-filter: grayscale(1);
     cursor: pointer;
-    transition: -webkit-filter 1s;
-    transition: filter 1s;
+    
+    transition: filter 1s, -webkit-filter 1s;
     
 }
 
@@ -278,6 +281,14 @@ background:url(../images/head2.png);
 	font-weight:bold;
 	color:#053EC5;
 	margin-bottom:20px;
+}
+
+.modal_topic{
+	font-family:Lucida Sans;
+	font-size:17px;
+	font-weight:bold;
+	color:#053EC5;
+	margin-bottom:5px;
 }
 
 
@@ -413,4 +424,10 @@ background:url(../images/head2.png);
 .brief_gallery{
 	width:600px;
 	float:left;
+}
+
+
+.portfolio_link{
+    float: left;
+    margin-right: 30px;
 }
