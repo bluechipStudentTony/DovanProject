@@ -1,5 +1,5 @@
 body{
-	font-family:Lucida Sans;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -267,7 +267,7 @@ background:url(../images/head2.png);
 
 
 .main_big{
-	font-family:Lucida Sans;
+	font-family: 'Oswald', sans-serif;
 	font-size:30px;
 	font-weight:bold;
 	color:#053EC5;
@@ -276,7 +276,7 @@ background:url(../images/head2.png);
 
 
 .semi_big{
-	font-family:Lucida Sans;
+	font-family: 'Oswald', sans-serif;
 	font-size:22px;
 	font-weight:bold;
 	color:#053EC5;
@@ -284,7 +284,7 @@ background:url(../images/head2.png);
 }
 
 .modal_topic{
-	font-family:Lucida Sans;
+	font-family: 'Oswald', sans-serif;
 	font-size:17px;
 	font-weight:bold;
 	color:#053EC5;
@@ -294,7 +294,7 @@ background:url(../images/head2.png);
 
 
 .demi_big{
-	font-family:Lucida Sans;
+	font-family: 'Roboto', sans-serif;
 	font-size:19px;
 	font-weight:;
 	color:#053EC5;
@@ -303,7 +303,7 @@ background:url(../images/head2.png);
 
 
 .body_txt{
-	font-family:Lucida Sans;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:15px;
 	margin-bottom:20px;
 	color:#383838;
@@ -349,7 +349,7 @@ background:url(../images/head2.png);
 	margin-bottom:20px;
 }
 .form_input{
-	height:20px;
+	height:30px;
 	width:250px;
     border: 0;
 	box-shadow:inset 0 0 2px 0 grey;
@@ -386,8 +386,12 @@ background:url(../images/head2.png);
 
 .person{
 	margin-bottom:70px;
-    border-bottom: 1px solid #3b3b3b;
-    padding-bottom: 20px
+    
+    padding: 10px;
+    background: linear-gradient(#EFEFEF, #EAEAEA);
+    border-radius: 10px;
+    
+        
     
 }
 
