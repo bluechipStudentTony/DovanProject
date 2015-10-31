@@ -35,7 +35,7 @@ background:url(../images/head2.png);
 
 
 #main_content_ins{
-	/*height:550px;*/
+	min-height:550px;
 	padding-top:20px;
 	width:1140px;
 	margin:0 auto;
