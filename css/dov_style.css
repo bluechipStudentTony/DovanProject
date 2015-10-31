@@ -256,13 +256,15 @@ background:url(../images/head2.png);
 	color:white;
 	font-weight:bold;
 	text-decoration:none;
-	
+    text-transform: uppercase;
+	transition: color 1s ease;
+    font-family: 'Oswald', sans-serif;
 	
 }
 
 
 #navigation li a:hover{
-	color:#AD0303;
+	color:#F94A4A;
 }
 
 
