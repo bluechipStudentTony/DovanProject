@@ -241,7 +241,7 @@ background:url(../images/head2.png);
 
 /*-------------------------navigation--------------------------------------------*/
 #navigation{
-	width:750px;
+	width:850px;
 	float:left;
 	margin-top:75px;
 }
@@ -307,6 +307,7 @@ background:url(../images/head2.png);
 .body_txt{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:15px;
+    line-height: 20px;
 	margin-bottom:20px;
 	color:#383838;
 }
@@ -358,6 +359,7 @@ background:url(../images/head2.png);
 	font-family:Lucida Sans;
     font-size:15px;
     padding:5px;
+    border-radius: 5px;
 }
 
 .form_textarea{
@@ -367,6 +369,7 @@ background:url(../images/head2.png);
 	font-family:Lucida Sans;
     border:0;
     padding:10px;
+    border-radius: 5px;
 }
 
 .form_submit{
